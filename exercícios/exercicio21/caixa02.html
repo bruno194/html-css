@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header {
+            background-color: lightyellow;
+            padding: 15px;
+            margin: 10px
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(185, 126, 49);
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: sienna;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+        }
+        footer > p {
+            margin: 5px;
+        }
+        main {
+            background-color: white;
+            text-align: justify;
+            font-family: inherit;
+            box-shadow:3px 3px 4px 2px rgba(0, 0, 0, 0.452);
+            border-radius: 10px;
+            padding: 10px;
+        }
+        a {
+            display: block;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 51px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Noticias sobre o brasil</h2>
+        <section id="noticia-mais-ou-menos">
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi aperiam obcaecati 
+                    aspernatur odio sed at nisi tempora impedit ducimus, provident tenetur repellendus 
+                    fugiat minima ipsum corporis facilis ad, adipisci saepe.
+                </p>
+            </article>
+        </section>
+        <section id="noticia-boa">
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi aperiam obcaecati 
+                    aspernatur odio sed at nisi tempora impedit ducimus, provident tenetur repellendus 
+                    fugiat minima ipsum corporis facilis ad, adipisci saepe.
+                </p>
+                <aside><p>feito por josé da silva</p></aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido pelo bruninho da massa</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

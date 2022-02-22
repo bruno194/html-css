@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lucida Sans',  Geneva, Verdana, sans-serif;
+    background-color: rgb(102, 230, 102);
+}
+h1 {
+    color: rgb(107, 87, 131);
+}
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2 {
+    color: rgba(172, 87, 87, 0.692);
+}
+h2.h2estupido {
+    color: brown;
+}
+.paragrafo_diferente {
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*#= id
+          .= class
+          := pseudo-classe
+          ::= pseudo-elemento
+          >= filho
+        */
+        body {
+            font-family: sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited { /*se vc ja visitou o link, o link ficara rosa, uma pseudo-classe */ 
+            color: rgb(255, 0, 170);
+        }
+        a:hover { /*quando passar o mouse emcima do texto ele fica preto, uma pseudo classe */ 
+            color: rgb(0, 0, 0);
+        }
+        a:active { /* quando estiver clicando o link fica amarelo, uma pseudo-classe*/ 
+            color: yellow;
+        }
+        a::before {
+            content: '[link]';
+            text-decoration: none;
+            color: rgb(143, 124, 124);
+        }
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            color: rgb(143, 124, 124);
+        }
+    </style>
+</head>
+<body>
+    <h1>pseudo classes</h1>
+    <ul>
+        <li><a target="_blank" href="https://twitter.com/Bruno_real2">canal do youtube</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UC5Hfm4jx59w_2D13bisDK_g">twitter</a></li>
+        <li><a target="_blank" href="https://scratch.mit.edu/users/no-name44/">scratch</a></li>
+    </ul>
+</body>
+</html>
