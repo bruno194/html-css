@@ -62,6 +62,18 @@ section.imagem > p {
     padding: 5px;
 }
 
+section > p {
+    padding-bottom: 1em;
+} 
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+}
+
 a {
     color: white;
     text-decoration: none;
