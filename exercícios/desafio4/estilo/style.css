@@ -54,6 +54,9 @@ section.normal {
 section.imagem {
     background-color: rgb(75, 66, 66);
     color: white;
+    box-shadow: inset 6px 5px 13px 8px rgba(0, 0, 0, 0.541);
+    background-size: cover;
+    background-attachment: fixed; /*  esse que faz o efeito paralax */
 }
 
 section.imagem > p {
@@ -69,7 +72,6 @@ section > p {
 section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
-    background-size: cover;
 }
 
 section#img02 {
