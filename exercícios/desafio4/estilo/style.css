@@ -68,6 +68,8 @@ section > p {
 
 section#img01 {
     background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 section#img02 {
