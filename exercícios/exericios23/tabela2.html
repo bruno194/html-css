@@ -5,6 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        td.num {
+            text-align: right
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
@@ -12,13 +31,28 @@
         <thead>
             <tr>
                 <th>Estado</th>
+                <th>população</th>
             </tr>
         </thead>
         <tbody>
-
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41 262 199</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 411 923	</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 463 349</td>
+            </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <th>total de habitantes</th>
+                <td>80.137.471</td>
+            </tr>
         </tfoot>
     </table>
 </body>
