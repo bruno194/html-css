@@ -4,3 +4,52 @@
     margin: 0px;
     padding: 0px;
 }
+
+html,body {
+    min-height: 100vh;
+}
+
+main {
+    background-color: black;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+section {
+    color: white;
+}
+
+section > img {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'METAL';
+    src: url(fontes/Base\ 02.ttf);
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to bottom,black, rgb(32, 5, 5));
+    box-shadow: 10px 10px 10px gray;
+}
+
+header > h1 {
+    font-size: 3em;
+    text-align: center;
+    color: rgba(233, 20, 20, 0.945);
+    font-family: METAL, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section#comeco > img{
+    display: inline-block;
+    width: 300px;
+}
+
+section#comeco > p{
+    display: inline-block;
+    width: 300px;
+    height: -100px;
+}
