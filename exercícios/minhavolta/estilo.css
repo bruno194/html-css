@@ -37,8 +37,8 @@ section > img {
 }
 
 header {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-image: linear-gradient(to bottom,black, rgb(32, 5, 5));
     box-shadow: 10px 10px 10px gray;
 }
