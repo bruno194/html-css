@@ -7,22 +7,24 @@
 
 html,body {
     min-height: 100vh;
-    background-color: gray;
+    background-image: url(imagens/madeira.jpg);
 }
 
 main {
-    background-color: black;
-    width: 80%;
+    background-color: rgba(10, 10, 10, 0.897);
+    min-width: 400px;
+    max-width: 1200px;
     display: block;
     margin: auto;
+    padding: 0px 0px 5px 10px;
 }
 
 section {
     color: white;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 30px 10px 10px 10px;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 section > img {
@@ -37,14 +39,14 @@ section > img {
 }
 
 header {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-image: linear-gradient(to bottom,black, rgb(32, 5, 5));
     box-shadow: 10px 10px 10px gray;
 }
 
 header > h1 {
-    font-size: 3em;
+    font-size: 3.2em;
     text-align: center;
     color: rgba(233, 20, 20, 0.945);
     font-family: METAL, Verdana, Geneva, Tahoma, sans-serif;
