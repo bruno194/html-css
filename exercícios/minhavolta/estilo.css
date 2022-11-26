@@ -31,7 +31,7 @@ section#comeco > img {
     display: block;
     width: 90%;
     min-width: 200px;
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -56,4 +56,9 @@ header > h1 {
 
 section#comeco > p {
     margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0px;
+    line-height: 1.5em;
 }
