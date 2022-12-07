@@ -28,3 +28,28 @@ section#telefone {
     width: 311px;
     background: url(imagens/frame-iphone.png) no-repeat;
 }
+
+section#redes-sociais img {
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 9px 6px rgba(0, 0, 0, 0.384);
+    box-sizing: border-box;
+}
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img:hover {
+    box-shadow: 2px 0px 11px 6px rgb(226, 28, 160);
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 264px;
+    height: 469px;
+    background-size: cover;
+}
