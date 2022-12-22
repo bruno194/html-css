@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quarto</title>
+</head>
+<body>
+    <h1>exemplo de formulario bla bla bla</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>preencha os dados</legend>
+            <p>
+                <label for="iemail">email:</label>
+                <input type="email" name="email" id="iemail" required maxlength="18">
+            </p>
+            <p>
+                <label for="itel">telefone:</label>
+                <input type="tel" name="tel" id="itel" required pattern="^[0-9]{4}-[0-9]{4}$">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
