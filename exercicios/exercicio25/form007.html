@@ -10,7 +10,32 @@
     <h1>exemplo de formulario</h1>
     <form action="cadastro.php" method="get">
         <p>
-            
+            <label for="iselect">sla mané:</label>
+            <select name="select" id="iselect" >
+                <optgroup label="Região sul">
+                    <option value="pr">Paraná</option>
+                    <option value="sc">Santa catarina</option>
+                    <option value="rs">Rio grande do sul</option>
+                </optgroup>
+                <optgroup label="Região nordeste">
+                    <option value="pr">Maranhão</option>
+                    <option value="sc">Piauí</option>
+                    <option value="rs">ceará(vo bota todos não kk)</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="icaralho">anime preferido:</label>
+            <input type="text" name="caralho" id="icaralho" list="idata">
+            <datalist id="idata">
+                <option value="value ativado">JOJO</option>
+                <option>BERSERK(o value ta desativado mais acho que não de pra notar)</option>
+                <option>DEATH NOTE</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="mensagem">mensagem:</label><br>
+            <textarea name="" id="mensagem" cols="20" rows="7"></textarea>
         </p>
         <p>
             <input type="submit" value="enviar">
