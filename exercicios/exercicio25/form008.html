@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="" method="get">
+        <p>
+            <label for="inume">numero1:</label>
+            <input type="number" name="nume" id="inume" max="50" min="2" 
+            required oninput="isoma.innerHTML = Number(inume.value) + Number(inum.value)">
+        </p>
+        <p>
+            <label for="inum">numero2:</label>
+            <input type="number" name="num" id="inum" max="50" min="2"
+            required oninput="isoma.innerHTML = Number(inume.value) + Number(inum.value)">
+        </p>
+        <p>
+            <label for="isoma">soma:</label>
+            <output id="isoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

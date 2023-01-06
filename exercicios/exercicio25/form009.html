@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario onde fica o acento em formulario?</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="irange">sla irmão tu espera que eu coloque algo decente aqui?:</label>
+            <input type="range" name="range" id="irange" min="1" max="10" value="5" 
+            required oninput="saida.innerHTML = Number(irange.value)">
+            <output id="saida"></output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

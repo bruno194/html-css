@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <p>
+        <label for="iano">ano em que nasceu?</label>
+        <input type="number" name="ano" id="iano" min 1877 max="2023" required 
+        oninput="idade.innerHTML = Number(iano.value) - Number(2023)">
+
+    </p>
+    <p>
+        <label for="idade">sua idade é:</label>
+        <output id="idade"></output>
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </p>
+</body>
+</html>
