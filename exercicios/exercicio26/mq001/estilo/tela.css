@@ -1,0 +1,29 @@
+@charset "UTF-8" ;
+
+/* estilo para telas */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+menu {
+    background-color: gray;
+}
+menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
