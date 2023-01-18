@@ -41,6 +41,7 @@ img {
     display: block;
     margin: auto;
 }
+
 img#phone {display: block;}
 img#pc {display: none;}
 img#tablet {display: none;}
