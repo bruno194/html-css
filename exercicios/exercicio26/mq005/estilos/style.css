@@ -7,11 +7,12 @@
 }
 
 body,html{
-    background-color: #c26c49 ;
+    background-color: #E8DDD1;
 }
 
 header {
-    background-color: rgb(150, 150, 150);
+    background-color: #1B1B1B;
+    color: rgb(245, 239, 239);
 }
 
 header > h1 {
@@ -31,20 +32,19 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(87, 83, 83);
+    background-color: #AE7C57;
     color: white;
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid #A78971;
 }
 
 menu > ul > li > a:hover {
-    /*darkkhaki*/
-    background-color: dimgray;
+    background-color: #63321B;
 }
 
 main {
     width: 90vw;
-    background-color: white;
+    background-color: #F6D259;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
