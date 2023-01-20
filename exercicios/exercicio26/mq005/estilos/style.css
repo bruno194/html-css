@@ -11,7 +11,7 @@ body,html{
 }
 
 header {
-    background-color: #1B1B1B;
+    background-color: #745555;
     color: rgb(245, 239, 239);
 }
 
@@ -20,8 +20,20 @@ header > h1 {
     text-align: center;
 }
 
+span#burguer {
+    background-color: #271e1e;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+span#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 menu {
-    display:block;
+    display:none;
 }
 
 menu > ul {
@@ -61,3 +73,4 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
